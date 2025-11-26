@@ -1,0 +1,20 @@
+# pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
+
+torch==2.1.0 
+torchvision==0.16.0 
+torchaudio==2.1.0
+opencv-python==4.9.0.80
+scipy==1.11.4
+numpy==1.26.3
+pyyaml
+av
+onnx
+tensorboard
+fvcore
+einops
+pyiqa==0.1.12
+timm==0.9.7
+lmdb
+scikit-learn
+# conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+# pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
